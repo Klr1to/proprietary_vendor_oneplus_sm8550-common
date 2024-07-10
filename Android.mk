@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter salami,$(TARGET_DEVICE)),)
+ifneq ($(filter aston salami,$(TARGET_DEVICE)),)
 
 endif
