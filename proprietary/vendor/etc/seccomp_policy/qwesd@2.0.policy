@@ -73,4 +73,3 @@ ioctl: 1
 nanosleep: 1
 
 pipe2: 1
-pipe2: 1
