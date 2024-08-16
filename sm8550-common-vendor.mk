@@ -8,12 +8,15 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/com.android.hotwordenrollment.common.util.xml \
     vendor/oneplus/sm8550-common/proprietary/odm/bin/hw/vendor-oplus-hardware-performance-V1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor-oplus-hardware-performance-V1-service \
+    vendor/oneplus/sm8550-common/proprietary/odm/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service \
     vendor/oneplus/sm8550-common/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff \
     vendor/oneplus/sm8550-common/proprietary/odm/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service \
     vendor/oneplus/sm8550-common/proprietary/odm/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.esepowermanager@1.1-service \
     vendor/oneplus/sm8550-common/proprietary/odm/bin/oplus_sensor_fb:$(TARGET_COPY_OUT_ODM)/bin/oplus_sensor_fb \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/dolby/multimedia_dolby_dax_default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/multimedia_dolby_dax_default.xml \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/android.hardware.contexthub-service.qmi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.contexthub-service.qmi.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor-oplus-hardware-performance-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-performance-V1-service.rc \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
@@ -22,8 +25,14 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
     vendor/oneplus/sm8550-common/proprietary/odm/lib/libc2ffmpegutils.so:$(TARGET_COPY_OUT_ODM)/lib/libc2ffmpegutils.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib/libc2filterplugin.so:$(TARGET_COPY_OUT_ODM)/lib/libc2filterplugin.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib/libdapparamstorage_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib/libdapparamstorage_v3_6.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib/libdeccfg_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib/libdeccfg_v3_6.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib/libdlbdsservice_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib/libdlbdsservice_v3_6.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib/libosie_process.so:$(TARGET_COPY_OUT_ODM)/lib/libosie_process.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib/libosie_stub.so:$(TARGET_COPY_OUT_ODM)/lib/libosie_stub.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib/libqtigef.so:$(TARGET_COPY_OUT_ODM)/lib/libqtigef.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_ODM)/lib/libstagefright_soft_ddpdec.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_ODM)/lib/libstagefrightdolby.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib/rfsa/adsp/aiboost/libQnnHtpV73Skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/aiboost/libQnnHtpV73Skel.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib/rfsa/adsp/capi_v3_oprec.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/capi_v3_oprec.so \
@@ -51,6 +60,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/lib/rfsa/adsp/libvdsuperphoto_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdsuperphoto_skel.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib/rfsa/adsp/nlc.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/nlc.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib/rfsa/adsp/nlc_bgth.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/nlc_bgth.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib/soundfx/libhwdap_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libhwdap_v3_6.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib/soundfx/libswdap_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libswdap_v3_6.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib/vendor.dolby_v3_6.hardware.dms360@2.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.dolby_v3_6.hardware.dms360@2.0.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib/vendor.oplus.hardware.extcamera@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.extcamera@1.0.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/aiboost/libQnnHtp.so:$(TARGET_COPY_OUT_ODM)/lib64/aiboost/libQnnHtp.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/aiboost/libQnnHtpPrepare.so:$(TARGET_COPY_OUT_ODM)/lib64/aiboost/libQnnHtpPrepare.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/aiboost/libQnnHtpV73Stub.so:$(TARGET_COPY_OUT_ODM)/lib64/aiboost/libQnnHtpV73Stub.so \
@@ -75,6 +89,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libc2filterplugin.so:$(TARGET_COPY_OUT_ODM)/lib64/libc2filterplugin.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libcommcenterfw.so:$(TARGET_COPY_OUT_ODM)/lib64/libcommcenterfw.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libcommcenterutils.so:$(TARGET_COPY_OUT_ODM)/lib64/libcommcenterutils.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib64/libdapparamstorage_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib64/libdapparamstorage_v3_6.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib64/libdeccfg_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib64/libdeccfg_v3_6.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib64/libdlbdsservice_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib64/libdlbdsservice_v3_6.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libdmtp-protos-lite.so:$(TARGET_COPY_OUT_ODM)/lib64/libdmtp-protos-lite.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libdmtp.so:$(TARGET_COPY_OUT_ODM)/lib64/libdmtp.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libdmtpclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libdmtpclient.so \
@@ -82,7 +99,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libolc_vnd.so:$(TARGET_COPY_OUT_ODM)/lib64/libolc_vnd.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/liboplus_service.so:$(TARGET_COPY_OUT_ODM)/lib64/liboplus_service.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libosenseaidlhalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libosenseaidlhalclient.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib64/libqtigef.so:$(TARGET_COPY_OUT_ODM)/lib64/libqtigef.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libtfa98xx.so:$(TARGET_COPY_OUT_ODM)/lib64/libtfa98xx.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib64/soundfx/libhwdap_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib64/soundfx/libhwdap_v3_6.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib64/soundfx/libswdap_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib64/soundfx/libswdap_v3_6.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib64/sr_ref_models.bin:$(TARGET_COPY_OUT_ODM)/lib64/sr_ref_models.bin \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.dolby_v3_6.hardware.dms360@2.0.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs-V1-ndk.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.oplus.hardware.communicationcenter-V1-ndk.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.communicationcenter-V1-ndk.so \
@@ -1384,6 +1407,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.wifidisplaysession-service \
     android.hardware.contexthub-service.qmi \
     device_manifest_communication_center_aidl \
+    manifest_dax_dolby_v3_6 \
     manifest_oplus_cwb \
     manifest_oplus_fingerprint \
     manifest_oplus_stability_project_aidl \
