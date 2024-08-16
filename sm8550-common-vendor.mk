@@ -10,13 +10,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/bin/hw/vendor-oplus-hardware-performance-V1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor-oplus-hardware-performance-V1-service \
     vendor/oneplus/sm8550-common/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff \
     vendor/oneplus/sm8550-common/proprietary/odm/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service \
-    vendor/oneplus/sm8550-common/proprietary/odm/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.esepowermanager@1.1-service \
+    vendor/oneplus/sm8550-common/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.1-service \
     vendor/oneplus/sm8550-common/proprietary/odm/bin/oplus_sensor_fb:$(TARGET_COPY_OUT_ODM)/bin/oplus_sensor_fb \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/android.hardware.contexthub-service.qmi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.contexthub-service.qmi.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor-oplus-hardware-performance-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-performance-V1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc \
-    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
+    vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/permissions/android.hardware.context_hub.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.context_hub.xml \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
@@ -55,7 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/aiboost/libQnnHtpPrepare.so:$(TARGET_COPY_OUT_ODM)/lib64/aiboost/libQnnHtpPrepare.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/aiboost/libQnnHtpV73Stub.so:$(TARGET_COPY_OUT_ODM)/lib64/aiboost/libQnnHtpV73Stub.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/aiboost/libQnnSystem.so:$(TARGET_COPY_OUT_ODM)/lib64/aiboost/libQnnSystem.so \
-    vendor/oneplus/sm8550-common/proprietary/odm/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so \
+    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/lib-virtual-modem-protos.so:$(TARGET_COPY_OUT_ODM)/lib64/lib-virtual-modem-protos.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libQnnCpu.so:$(TARGET_COPY_OUT_ODM)/lib64/libQnnCpu.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libQnnGpu.so:$(TARGET_COPY_OUT_ODM)/lib64/libQnnGpu.so \
@@ -92,8 +92,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.oplus.hardware.performance-V1-ndk.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance-V1-ndk.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.oplus.hardware.stability.oplus_project-V1-ndk.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.stability.oplus_project-V1-ndk.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.oplus.hardware.touch-V1-ndk.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.touch-V1-ndk.so \
-    vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.qti.esepowermanager@1.0.so \
-    vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.qti.esepowermanager@1.1.so \
+    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0.so \
+    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.1.so \
     vendor/oneplus/sm8550-common/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/oneplus/sm8550-common/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/oneplus/sm8550-common/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
